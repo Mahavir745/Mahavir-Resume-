@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MahavirCv</title>
+    <style>
+        body{
+            width: auto;
+            margin: auto;
+            max-width: 900px;
+            background-color: black;
+           
+        }
+        .container{
+            width: auto;
+            height: 900px;
+            box-shadow: 6px 7px 80px rgb(255, 115, 0);
+            background-color: rgb(254, 242, 219);
+            display: grid;
+
+            grid-template-columns:repeat(2, 1fr);
+
+        }
+        #child1{
+            background-image: linear-gradient(120deg, white, white, blue,orange);
+
+        }
+       
+        #mahavirImg{
+            width: 195px;
+            height: 195px;
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+            border-radius: 15px;
+            box-shadow: 5px 6px 7px gray;
+        }
+        #firstH2{
+            /* text-align: center; */
+            margin: 18px 18px;
+            font-size: 35px;
+            text-shadow: 6px 7px 4px skyblue;
+        }
+        #firstH2::first-letter{
+            font-size: 80px;
+            color: blue;
+        }
+    
+        #personalInfolist li{
+            padding: 10px;
+            margin: 20px;
+            list-style: none;
+            box-shadow:inset 5px 5px 8px rgb(129, 128, 128), 5px 7px 15px rgb(241, 212, 212);
+            background-color: aliceblue;
+            border-radius:6px;
+            word-spacing: 6px;
+           
+        }
+        #personalInfolist li:hover{
+            box-shadow: 8px 7px 4px skyblue;
+        }
+
+        .logos{
+            width: 23px;
+            height: 23px;
+            padding: 10px;
+            display: inline-block;
+            position: relative;
+            top: 18px;
+        }
+        #contactDetail li{
+            padding: 8px;
+           list-style: none;
+           font-size: 18px;
+           margin: 20px;
+           box-shadow: 4px 5px 7px palevioletred,inset 5px 7px 15px gray;;
+            border-radius:10px;
+            background-color:aliceblue;
+            word-spacing: 6px;
+        }
+        #contactDetail li:hover{
+            box-shadow: 6px 7px 8px rgb(238, 13, 13);
+        }
+
+
+        /* 2nd part------------------------------- */
+        #child2{
+            background-color: rgb(235, 254, 254)
+        }
+        #nameCv{
+            font-size: 60px;
+            text-align: center;
+            margin: 5px;
+            padding: 4px;
+            background-image:linear-gradient(112deg,blue, pink,orange, red, blue);
+            color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+        hr{
+            border: 3px solid rgb(224, 224, 248);
+            box-shadow: 6px 7px 8px gray;
+        }
+        #secondH2{
+            margin: 18px 18px;
+            font-size: 35px;
+            text-shadow: 6px 7px 4px rgb(178, 179, 180);
+        }
+        #secondH2::first-letter{
+            color: blue;
+            font-size: 55px;
+        }
+    #listOfQualification{
+        padding: 10px;
+        margin: 4px 10px;
+    }
+    b{
+        font-size: 20px;
+        color: blue;
+        box-shadow: -4px 5px 7px gray;
+        border-radius:6px;
+    }
+    b:hover{
+        background-color: rgb(221, 252, 252);
+        box-shadow: -5px 6px 12px rgb(249, 148, 240);
+        cursor:context-menu;
+        
+    }
+    #listOfQualification li{
+        list-style: none;
+        padding:5px;
+        font-size: 18px;
+        margin: 10px;
+        word-spacing: 6px;
+        box-shadow: -4px 5px 7px gray,5px 7px 15px gray;;
+        border-radius:6px;
+    }
+    #listOfQualification li:hover{
+        box-shadow: 7px 6px 8px lightcoral;
+    }
+    #listOfSkills li{
+        list-style: none;
+        padding:5px;
+        font-size: 18px;
+        margin: 10px;
+        width: 125px;
+        display: inline-block;
+        word-spacing: 6px;
+        box-shadow:inset -4px 5px 7px gray,5px 7px 15px rgb(49, 102, 247);;
+        border-radius:4px;
+    }
+    #listOfSkills li:hover{
+        box-shadow: 7px 8px 9px  red;
+    }
+    #listOfHobbies li{
+        list-style: none;
+        padding:5px;
+        font-size: 18px;
+        margin: 10px;
+        word-spacing: 6px;
+        box-shadow: -4px 5px 7px gray,5px 7px 15px rgb(248, 134, 134);;
+        border-radius:6px;
+    }
+    #listOfHobbies li:hover{
+        background-color: aquamarine;
+    }
+    h4{
+        font-size: 19.5px;
+        word-spacing: 4px;
+    }
+    
+
+
+
+    </style>
+</head>
+<body>
+    <header>
+        
+    </header>
+    <main>
+        <div class="container">
+        <div id="child1">
+            <img src="developer.jpg" id="mahavirImg" alt="">
+            <h2 id="firstH2">Personal Information:</h2>
+            <ul id="personalInfolist">
+                <li><b>Name:</b> Mahavir Kumar Mahato</li>
+
+                <li><b>Father's Name:</b> Bhupal Chandra Mahato</li>
+
+                <li><b>D.O.B:</b> 7th August 2005</li>
+
+                <li>I AM A QUICK LEARNER AND ABLE TO TAKE DECISION. <br>
+                    <br>  MY CREATIVE MIND HELPS ME TO MAKE A PROGRAMMER </li>
+            </ul>
+            <br>
+            <hr>
+            
+                <ul id="contactDetail">
+                    <li><img src="contactLogo.png" class="logos"><b>Contact:</b> 7870767196</li>
+
+                    <li><img src="emailLogo.png" class="logos"><b>Email:</b> mahavir23@navgurukul.org</li>
+
+                    <li><img src="addressLogo.png" class="logos"><b>Address:</b><br><br> Vill- Dharjori Post Bhuli Nagar,<br> Dhanbad Jharkhand 828105</li>
+                </ul>
+           
+        </div>
+
+        <!-- 2nd part-------------- -->
+        <div id="child2">
+            <h1 id="nameCv">Mahavir Kumar Mahato</h1>
+            <hr>
+            <h2 id="secondH2">Qualification:</h2>
+            <ul id="listOfQualification">
+                <li><b>12th(Science):</b><br> In 2022 from Pk Roy Memorial College Dhanbad Jharkhand</li>
+                <li><b>Graduation:</b><br> purusing (IGNOU)</li>
+                <h4>Currently I am a student in Navgurkul</h4>
+            </ul>
+            <h2 id="secondH2">Skills:</h2>
+            <ul id="listOfSkills">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS</li>
+                <li>C LANGUAGE</li>
+                <li>PYTHON</li>
+            </ul>
+            <h2 id="secondH2">Hobbies:</h2>
+            <ul id="listOfHobbies">
+                <li>Coding & Sketching </li>
+            <h4>My hobbies help me to think of new things. <br>Thatswhy I have a creative mind. </h4>
+            </ul>
+        </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>    
+</body>
+</html>
